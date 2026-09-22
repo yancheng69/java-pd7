@@ -13,7 +13,10 @@ class Main {
     calculated sum and then display it.
     
 */
-   
+   int x = 5;
+   int y = 3; 
+   float sum = x + y; 
+   System.out.println(sum);
 
 
 /*  
@@ -23,7 +26,11 @@ class Main {
     calculated sum and then display it.
     
 */
-
+        double g1 = 78;
+        double g2 = 92;
+        double g3 = 85;
+        double gradeSum = g1 + g2 + g3;
+        System.out.println(gradeSum);
 
 
 /*  
@@ -33,6 +40,8 @@ class Main {
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
+        double gradeAverage = gradeSum / 3.0; 
+        System.out.println(gradeAverage);
 
 
 
@@ -42,7 +51,9 @@ class Main {
     Declare and assign values to any new variables
 
 */
-  
+        double A = 12.0; 
+        double eq1Result = A / (x + 1.0); 
+        System.out.println(eq1Result);
 
 /*  
     Challenge 5:
@@ -52,7 +63,8 @@ class Main {
 
 */
  
-
+        double eq2Result = (2 * x * (x + 1) * (-x / 2.0)) / A;
+        System.out.println(eq2Result);
 
 
 
@@ -65,7 +77,10 @@ class Main {
     Declare and assign values to any new variables
 */
  
-
+        double b = 8.0;  
+        double h = 5.0;  
+        double area = 0.5 * b * h;
+        System.out.println(area);
 
 
 
@@ -85,9 +100,14 @@ class Main {
     2) Write the java code that will calculate how many eggs
     are left over after we filled as many baskets of 12 eggs.
 */
+        int totalEggs = 100;
+        int eggsPerBasket = 12;
 
+        int fullBaskets = totalEggs / eggsPerBasket; 
+        System.out.println(fullBaskets);
 
-
+        int leftOverEggs = totalEggs % eggsPerBasket;
+        System.out.println(leftOverEggs);
 
 
     // **************************************************
