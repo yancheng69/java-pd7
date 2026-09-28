@@ -14,12 +14,12 @@ class Main{
     boolean stillAlive;
 
     //Always prompt the user for what information you are requesting
-    
-    System.out.println("Enter your age:");
 
-    age = Input.readInt();
-    System.out.println("Your age is: "+age);
-    
+        System.out.println("Enter your age:");
+        age = Input.readInt();
+
+        System.out.println("Your age is: " + age);
+
 
 
     System.out.println("Enter the measurement to 100th place:");
