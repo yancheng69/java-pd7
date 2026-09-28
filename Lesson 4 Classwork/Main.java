@@ -12,7 +12,9 @@ class Main {
     3) number of items in a cart 
 */
   
- 
+      int studentAge = 20;
+        int peopleAtHome = 3;
+        int cartItemsCount = 5;
  
 
 
@@ -24,7 +26,9 @@ class Main {
     3) growth rate of your investment
 */
 
-
+        double temperature = 72.5;
+        double studentGpa = 3.85;
+        double investmentGrowthRate = 0.065;
 
 
 /*  
@@ -35,6 +39,9 @@ class Main {
     3) description of an item 
 */
 
+        boolean isLightOn = true;
+        boolean isGameOver = false;
+        boolean isBatteryCharging = true;
 
 
 
