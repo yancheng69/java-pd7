@@ -1,12 +1,19 @@
 class Main {
-  public static void main(String[] args) {
-    (new Main()).init();
-  }
 
-  void init(){
+    public static void main(String[] args) {
+        (new Main()).init();
+    }
 
-        
-  }
+    void init() {
+        System.out.println(groupSavings(8));
+        System.out.println(groupSavings(12));
+        System.out.println(groupSavings(20));
+
+        System.out.println(groceryDiscount(150, 3));
+        System.out.println(groceryDiscount(250, 5));
+        System.out.println(groceryDiscount(250, 4));
+    }
+
 
     /*
       Problem 1:      
@@ -16,6 +23,15 @@ class Main {
       9 to 16 tickets : each ticket cost $10.50
       over 16 tickts  : each ticket cost $8.50
     */
+    double groupSavings(int tickets) {
+        if (tickets <= 8) {
+            return tickets * 11.00;
+        } else if (tickets <= 16) {
+            return tickets * 10.50;
+        } else {
+            return tickets * 8.50;
+        }
+    }
 
   
   /*
@@ -31,5 +47,14 @@ class Main {
         Otherwise: $0 savings.
     */
 
-
+    double groceryDiscount(double total, int cans) {
+        if (total >= 100 && total <= 200 && cans >= 3) {
+            return 10.00;
+        } else if (total > 200 && cans > 4) {
+            return 25.00;
+        } else {
+            return 0.00;
+        }
+    }
 }
+
