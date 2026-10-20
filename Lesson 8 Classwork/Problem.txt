@@ -1,0 +1,7 @@
+Classroom: Lesson 8 Classwork (September 29, 2026)
+
+1. A function accepts a noun, adjective and verb (Strings), returning
+   "The " + adjective + " " + noun + " " + verb.
+   Example: person, loud, runs -> "The loud person runs".
+2. A function accepts a square's side length and returns its area.
+3. A function accepts a circle's radius and returns its area.

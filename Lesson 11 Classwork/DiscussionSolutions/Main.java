@@ -32,8 +32,8 @@ class Main {
     String name = "pan,peter";
     
     n = name.indexOf(",");
-    String fName = name.substring(0,n);
-    String lName = name.substring(n+1);
+    String lName = name.substring(0,n);
+    String fName = name.substring(n+1);
     System.out.println("First name "+fName);
     System.out.println("Last name "+lName);
   }

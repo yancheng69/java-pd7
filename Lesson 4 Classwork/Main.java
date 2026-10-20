@@ -15,6 +15,9 @@ class Main {
       int studentAge = 20;
         int peopleAtHome = 3;
         int cartItemsCount = 5;
+        System.out.println("Student age: " + studentAge);
+        System.out.println("People at home: " + peopleAtHome);
+        System.out.println("Items in cart: " + cartItemsCount);
  
 
 
@@ -29,6 +32,9 @@ class Main {
         double temperature = 72.5;
         double studentGpa = 3.85;
         double investmentGrowthRate = 0.065;
+        System.out.println("Temperature: " + temperature);
+        System.out.println("Student GPA: " + studentGpa);
+        System.out.println("Investment growth rate: " + investmentGrowthRate);
 
 
 /*  
@@ -39,9 +45,12 @@ class Main {
     3) description of an item 
 */
 
-        boolean isLightOn = true;
-        boolean isGameOver = false;
-        boolean isBatteryCharging = true;
+        String lastName = "Long";
+        char firstInitial = 'Y';
+        String itemDescription = "A Java programming textbook";
+        System.out.println("Last name: " + lastName);
+        System.out.println("First initial: " + firstInitial);
+        System.out.println("Item description: " + itemDescription);
 
 
 
@@ -52,6 +61,12 @@ class Main {
     2) the status whether the game is over
     3) the status whether the battery is charging
 */
+        boolean isLightOn = true;
+        boolean isGameOver = false;
+        boolean isBatteryCharging = true;
+        System.out.println("Lights on: " + isLightOn);
+        System.out.println("Game over: " + isGameOver);
+        System.out.println("Battery charging: " + isBatteryCharging);
 
 
 

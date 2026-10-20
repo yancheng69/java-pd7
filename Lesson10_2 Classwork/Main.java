@@ -4,6 +4,17 @@ class Main {
   }
 
   void init(){
+    // The four assigned Classroom problems.
+    System.out.println(collegeApp(3.2, 1400));
+    System.out.println(collegeApp(3.0, 1450));
+    System.out.println(ecoFuel(40));
+    System.out.println(ecoFuel(65));
+    System.out.println(speedFine(60));
+    System.out.println(speedFine(75));
+    System.out.println(discount(100, 80, 80));
+    System.out.println(discount(90, 90, 90));
+
+    // Additional examples from the class discussion.
     System.out.println(covidTest(12));
     System.out.println(covidTest(10));
     
@@ -16,6 +27,32 @@ class Main {
     System.out.println(playToday(67,9));
     System.out.println(playToday(67,16));
 
+  }
+
+  String collegeApp(double gpa, int satScore) {
+    if (gpa >= 3.2 || satScore >= 1450) return "ACCEPTED";
+    else return "Not Accepted";
+  }
+
+  String ecoFuel(double speed) {
+    if (speed >= 40 && speed <= 65) return "Fuel Economy";
+    else return "Not Optimal";
+  }
+
+  double speedFine(double speed) {
+    if (speed >= 60 && speed <= 70) return 75;
+    else if (speed > 70) return 75 + (speed - 70) * 2;
+    else return 0;
+  }
+
+  // Return the TOTAL after any discount, as requested in Classroom.
+  double discount(double item1, double item2, double item3) {
+    double total = item1 + item2 + item3;
+    if (total > 250 && (item1 >= 100 || item2 >= 100 || item3 >= 100)) {
+      return total * 0.90;
+    } else {
+      return total;
+    }
   }
 
       /*
@@ -75,10 +112,10 @@ class Main {
     */
 
   String playToday(double temp, int players){
-    if (temp>=60 && temp<=70 && (players == 9 || players==18) )
+    if (temp>60 && temp<70 && (players == 9 || players==18) )
       return "Game is on!";
     else
-      return "No Game today";
+      return "No Game today.";
 
   }
 

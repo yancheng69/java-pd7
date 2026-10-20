@@ -1,0 +1,9 @@
+Classroom: Lesson 10_3 Classwork (HW) (October 6, 2026)
+
+1. groupSavings(tickets): return the total ticket cost. For 1..8 tickets,
+   each is 11; for 9..16, each is 10.50; above 16, each is 8.50.
+   Return 0 for no tickets or a negative quantity, as in the teacher's
+   posted solution.
+2. groceryDiscount(total, cans): return savings of 10 when spending
+   100..200 inclusive and buying at least 3 cans of beans; return 25
+   when spending over 200 and buying more than 4 cans; otherwise 0.

@@ -46,7 +46,7 @@ class Main {
        return "FADE OUT";
     }
     else{
-       return "UKNOWN LEVEL";
+       return "UNKNOWN LEVEL";
     }
   }
     

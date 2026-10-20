@@ -1,0 +1,16 @@
+Classroom: Lesson10_2 Classwork (October 5, 2026)
+
+1. collegeApp(gpa, satScore): return "ACCEPTED" if GPA is at least 3.2
+   OR SAT is at least 1450; otherwise return "Not Accepted".
+2. ecoFuel(speed): return "Fuel Economy" from 40 through 65 MPH,
+   including both endpoints; otherwise return "Not Optimal".
+3. speedFine(speed): return 75 for 60 through 70 MPH, and 75 plus
+   2 dollars per MPH over 70. Below 60, return 0, as in the teacher's
+   posted solution.
+4. discount(item1, item2, item3): return the total with 10% off if the
+   sum is over 250 AND at least one item costs 100 or more;
+   otherwise return the undiscounted total.
+
+The Classroom assignment text is used where the posted solution differs:
+GPA >= 3.2, economy range 40..65, and discounted TOTAL rather than RATE.
+The discussion examples remain below the four assigned functions.

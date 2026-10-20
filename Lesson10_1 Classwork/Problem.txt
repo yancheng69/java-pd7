@@ -1,0 +1,7 @@
+Classroom: Lesson10_1 Classwork (October 2, 2026)
+
+1. discount(amount): return a 10% rate if grocery spending is over $100,
+   otherwise return 0%. Rates are returned as 0.10 and 0.0.
+2. honors(gpa): return "Honor Student" for GPA at least 90,
+   otherwise "Work harder".
+3. shortSize(waist): return "Medium" below 36 inches, otherwise "Large".

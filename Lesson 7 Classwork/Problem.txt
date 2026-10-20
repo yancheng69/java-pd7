@@ -1,0 +1,10 @@
+Classroom: Lesson 7 Classwork (September 25, 2026)
+
+Read each formula's variables from the user, then calculate and print:
+1. eq1.PNG: z = A^(2x + 1).
+2. eq2.PNG: y = 2x / sin(3x). With no degree symbol in the formula,
+   x is interpreted in radians, as required by Java's Math.sin.
+   Use x values for which sin(3x) is nonzero.
+3. eq3.PNG: b = |x^2 + 1|.
+
+The three formula images were inspected in the Classroom attachments.

@@ -1,0 +1,7 @@
+Classroom: Lesson 6 Classwork (September 24, 2026)
+
+Prompt for, read into a variable of the correct type, and print:
+1. A student's age (int).
+2. A student's GPA (double).
+3. A student's first name (String).
+4. Whether a player wants to continue playing (boolean).
