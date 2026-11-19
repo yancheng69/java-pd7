@@ -6,8 +6,24 @@ class Main {
   void printt(Object o){ System.out.print(o);}
 
   void init(){
-   
-    
+    String[] friends = {"Alex", "Sam", "Jordan"};
+    for (int x = 0; x < friends.length; x++){
+      print(friends[x]);
+    }
+
+    double[] celsius = {-40, 0, 37.5, 100};
+    double[] fahrenheit = convert(celsius);
+    for (int x = 0; x < fahrenheit.length; x++){
+      print(celsius[x] + " C = " + fahrenheit[x] + " F");
+    }
+  }
+
+  double[] convert(double[] celsius){
+    double[] fahrenheit = new double[celsius.length];
+    for (int x = 0; x < celsius.length; x++){
+      fahrenheit[x] = celsiusToFarhenheit(celsius[x]);
+    }
+    return fahrenheit;
   }
 
   

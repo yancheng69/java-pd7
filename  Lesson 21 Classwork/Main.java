@@ -80,8 +80,21 @@ class Main {
 
 
   void init(){
+    int choice = 0;
+    while (choice != 4){
+      menu();
+      choice = Input.readInt();
 
-    
+      if (choice == 1){
+        print(rollDice());
+      } else if (choice == 2){
+        print(drawCard());
+      } else if (choice == 3){
+        watchingYou();
+      } else if (choice != 4){
+        print("Please enter a number from 1 to 4.");
+      }
+    }
   }
 
   
@@ -100,6 +113,5 @@ class Main {
   public void clearScreen() {  
     System.out.print("\033[H\033[2J");  
     System.out.flush();  
-} 
- 
+}
 }
